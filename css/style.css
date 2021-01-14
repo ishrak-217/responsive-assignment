@@ -33,7 +33,7 @@ h2, h3{
 }
 .item-card{
     border: 0;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .item-card-footer{
     background-color: white;
