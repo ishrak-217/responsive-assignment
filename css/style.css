@@ -1,7 +1,9 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
 header{
     background-color: rgba(255, 255, 244, 1);
     margin: 0;
-    width: 100%;
 }
 #logo{
     width: 50%;
@@ -10,6 +12,22 @@ header{
 .nav-item{
     padding-left: 10px;
     padding-right: 10px;
+}
+section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.bl-color{
+    color: rgba(54, 57, 88, 1);
+    font-family: 'Bebas Neue', cursive;
+}
+.price-color{
+    color: rgba(118, 194, 126, 1);
+    font-size: 30px;
+}
+h1{
+    font-size: 80px;
+    font-weight: 700;
 }
 .panda-card{
     border: 0;
@@ -22,8 +40,14 @@ header{
     width: 100px;
 }
 .query{
-    background-color: #fceae8;
+    background-color:  rgba(255, 255, 244, 1);
     border-radius: 1em;
+}
+.cat1{
+    background-color: whitesmoke;
+}
+.cat2{
+    background-color: purple;
 }
 .buy-now-button{
     background-color: rgba(42, 30, 89, 1);
@@ -32,4 +56,12 @@ header{
     border-radius: 5px;
     padding: 9px 25px;
     cursor: pointer;
+    font-family: 'Bebas Neue', cursive;
+}
+.crsl{
+    background-color: whitesmoke;
+    border-radius: 1em;
+}
+.carousel-item{
+    padding: 20px 40px;
 }
